@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    <h1>javaScript Excercise</h1>
+<script>
+
+ function randomInt(min,max) 
+ {
+    var numOfValues=max-min+1;
+    var randomNum=Math.random();
+    var randomVal=randomNum*numOfValues;
+    var roundedRandomVal=Math.floor(randomVal);
+    var finalNum=min + roundedRandomVal;
+
+    return finalNum;
+ }
+
+console.log(randomInt(0,10))
+
+</script>
+</body>
+</html>
